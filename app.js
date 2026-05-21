@@ -1,6 +1,6 @@
 /* eslint-disable */
 // Cấu hình Supabase (Giữ nguyên của con)
-const SUPABASE_URL = "https://ymqojrhnallaphkuhbcml.supabase.co";
+const SUPABASE_URL = "https://ymqojrhnllaphkuhbcml.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InltcW9qcmhubGxhcGhrdWhiY21sIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkyNjE4MzIsImV4cCI6MjA5NDgzNzgzMn0.q9C7cviN2cFt-0zwtqkV44ieewVp0wuNmLaxvBJ438c";
 const mySupabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
